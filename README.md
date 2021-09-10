@@ -15,4 +15,4 @@ No curso o professor Schreiner - @hmschreiner - usou como banco de dados um arqu
 
 **Não usei o Postman pois já tinha o SoapUI instalado e conhecimento de como aplicá-lo, e percebi que teria mais dificuldade com o Postman.**
 
-**Parece que o Pug possui algumas características que o EJS não pussui.**
+**Parece que o Pug possui algumas características que o EJS não possui. Por isso vou estudar mais a fundo essa engine. Contudo EJS é mais fácill e simples de usar, vi um diferencial no Pug. Então o desafio de conhecer melhor vai valer a pena.**
