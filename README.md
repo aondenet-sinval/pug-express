@@ -5,7 +5,7 @@ Exemplo de integração do Pug com Express com MongoDB.
 
 
 ## Observações
-Este código foi desenvolvido a partir do curso que participei **Introduão ao Node.Js** na [Digital Inovation One](https://digitalinnovation.one).
+Este código foi desenvolvido a partir do curso que participei **Introdução ao Node.Js** na [Digital Inovation One](https://digitalinnovation.one).
 
 ## Alterações:
 
