@@ -16,17 +16,17 @@ app.get('/', (req, res) => {
 
 app.get('/sobre', (req, res) => res.render('sobre'))
 app.get('/contato', (req, res) => res.render('contato'))
-//-----------com mongo
+
  
 //Get page posts
 app.get('/posts', async (req, res) => {
   const dbConnect = require("./conectdb");
   const Posts = dbConnect.Mongoose.model('posts', dbConnect.PostSchema, 'posts');
 
-  const posts = await Posts.find({}).lean().exec();
-  res.render('posts', { posts });
+  const postsBlog = await Posts.find({}).lean().exec();
+  res.render('posts', { postsBlog });
 });
-//------------mongo end
+
 
 app.listen(port, () => console.log(`App rodando na porta ${port}...`))
 

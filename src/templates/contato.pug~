@@ -1,0 +1,7 @@
+extends layout.pug
+
+block head
+    title Contato
+block content
+    .container
+        w3-button Contato
